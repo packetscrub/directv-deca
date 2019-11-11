@@ -1,6 +1,4 @@
-# direct_tv_reversing
-
-#### DirectTV DECA adapter
+# DirectTV DECA adapter
 
 
 binwalk output
