@@ -1,5 +1,33 @@
 # DirectTV DECA adapter
 
+nmap scan
+```
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-12-26 02:15 EST
+Nmap scan report for 169.254.239.155
+Host is up (0.033s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet?
+80/tcp open  http    Dynamode/Motorola WAP http config
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port23-TCP:V=7.60%I=7%D=12/26%Time=5E045E29%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,3,"\r\n>")%r(GenericLines,3,"\r\n>")%r(JavaRMI,3,"\r\n>");
+MAC Address: E0:37:BF:16:83:10 (Wistron Neweb)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Tomato 1.27 - 1.28 (Linux 2.4.20) (97%), Linux 2.6.18 - 2.6.22 (97%), Linux 3.2.0 (97%), MikroTik RouterOS 6.15 (Linux 3.3.5) (97%), D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP (96%), Linksys BEFSR41 EtherFast router (96%), Siemens Simatic 300 programmable logic controller (96%), Nokia E70 or N86 mobile phone (Symbian OS) (93%), Blue Coat PacketShaper appliance (92%), AVtech Room Alert 26W environmental monitor (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Device: WAP
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   33.15 ms 169.254.239.155
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 57.56 seconds
+
+```
+
 
 binwalk output
 ```
